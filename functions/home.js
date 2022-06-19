@@ -10,8 +10,8 @@ window.onload = function() {
   console.log(currentEmail)
 
   const loadNewPage = () => {
+    // window.location.href = `http://${homeURL}/download.html?email=${currentEmail}`;
     window.location.href = `http://${homeURL}/download.html?email=${currentEmail}`;
-    window.location.href = `http://${homeURL}:5500/download.html?email=${currentEmail}`;
     console.log('Hello there')
   }
 
